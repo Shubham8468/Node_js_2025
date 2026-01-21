@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+    line-height: 1.6;
+    background: white;
+    color: #333;
+}
+.navbar{
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+.logo{
+    font-size: 1.5rem;
+}
+.nav-links{
+    display:flex;
+    flex-direction: row;
+    gap:30px;
+    color: #fff;
+}
+.nav-links li{
+    color: rgb(25, 23, 23)
+   
+}
+.setcion-main{
+    background-color:rebeccapurple;
+    width:auto;  
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.setcion-main h2{
+    font-size: 600px;
+    display: flex;
+    flex-direction: center;
+    text-align: center;
+
+}
+
